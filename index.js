@@ -1,7 +1,7 @@
 const request = require('request');
 const cowsay = require('cowsay');
 
-const quoteURL = 'http://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=ru';
+const quoteURL = 'http://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en';
 
 function writeMessage(error, response, body) {
   if (!error) {
